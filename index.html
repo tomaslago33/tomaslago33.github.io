@@ -17,6 +17,9 @@
 </head>
 <body>
 
+  <!-- ========== SCROLL PROGRESS BAR ========== -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
   <!-- ========== NAVIGATION ========== -->
   <nav id="navbar" role="navigation" aria-label="Main navigation">
     <div class="nav-container">
@@ -27,6 +30,7 @@
 
       <ul class="nav-links" id="nav-links" role="list">
         <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="#ai-agents" data-i18n="nav.ai">IA & Agentes</a></li>
         <li><a href="#experience" data-i18n="nav.experience">Experiencia</a></li>
         <li><a href="#education" data-i18n="nav.education">Educación</a></li>
         <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
@@ -73,7 +77,7 @@
       </p>
 
       <p class="hero-description reveal-up" style="--delay:0.3s" data-i18n="hero.description">
-        Desarrollador apasionado por la tecnología móvil con experiencia en iOS, React Native y educación tecnológica. Me adapto rápidamente a nuevos entornos y trabajo con compromiso, responsabilidad y buena comunicación.
+        Desarrollador mobile e innovador tecnológico especializado en iOS, React Native y la aplicación de Agentes de IA autónomos (Cursor, Claude Code, Antigravity) para acelerar el desarrollo de software y entregar soluciones de alta calidad con Clean Architecture.
       </p>
 
       <div class="hero-cta reveal-up" style="--delay:0.4s">
@@ -91,6 +95,11 @@
         <div class="stat-item">
           <span class="stat-num">8+</span>
           <span class="stat-label" data-i18n="hero.stat.years">Años de experiencia</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-i18n="hero.stat.ai.val">100%</span>
+          <span class="stat-label" data-i18n="hero.stat.ai">Desarrollo con Agentes IA</span>
         </div>
         <div class="stat-divider" aria-hidden="true"></div>
         <div class="stat-item">
@@ -204,6 +213,130 @@
     </div>
   </section>
 
+  <!-- ========== AI AGENTS & AI DEVELOPMENT ========== -->
+  <section id="ai-agents" class="ai-section" aria-labelledby="ai-heading">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag ai-tag" data-i18n="ai.tag">Innovación & Eficiencia</span>
+        <h2 id="ai-heading" data-i18n="ai.heading">Inteligencia Artificial y Agentes de IA</h2>
+        <p class="section-subtitle reveal-up" data-i18n="ai.subtitle">
+          Especialista en potenciar el desarrollo de software mediante el uso de Agentes de IA autónomos, Prompt Engineering avanzado e integración de LLMs.
+        </p>
+      </div>
+
+      <div class="ai-cards-grid">
+        <div class="ai-card glass reveal-up" style="--delay:0s">
+          <div class="ai-card-glow" aria-hidden="true"></div>
+          <div class="ai-card-top">
+            <div class="ai-icon-wrap" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.5 7.5"/><path d="m12 12 8.5-4.5"/><path d="m12 12 4.5 8.5"/><path d="m12 12-4.5 8.5"/></svg>
+            </div>
+            <span class="ai-card-badge">Agentic Dev</span>
+          </div>
+          <h3 data-i18n="ai.card1.title">Agentes de IA Autónomos</h3>
+          <p data-i18n="ai.card1.desc">Dominio de herramientas agénticas de última generación (Claude Code, Antigravity, Cursor, Windsurf) para automatizar refactorizaciones complejas, depuración profunda y creación de arquitecturas limpias en tiempo récord.</p>
+          <div class="ai-card-tech">
+            <span class="tech-pill">Claude Code</span>
+            <span class="tech-pill">Antigravity</span>
+            <span class="tech-pill">Cursor</span>
+            <span class="tech-pill">Windsurf</span>
+          </div>
+        </div>
+
+        <div class="ai-card glass reveal-up" style="--delay:0.1s">
+          <div class="ai-card-glow" aria-hidden="true"></div>
+          <div class="ai-card-top">
+            <div class="ai-icon-wrap" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span class="ai-card-badge">Prompting</span>
+          </div>
+          <h3 data-i18n="ai.card2.title">Prompt Engineering & Contexto</h3>
+          <p data-i18n="ai.card2.desc">Diseño de arquitecturas de contexto (AGENTS.md, SKILL.md), optimización de ventanas de contexto y estructuración de instrucciones precisas para maximizar la calidad y fidelidad del código generado.</p>
+          <div class="ai-card-tech">
+            <span class="tech-pill">Context Optimization</span>
+            <span class="tech-pill">AGENTS.md</span>
+            <span class="tech-pill">SKILL.md</span>
+            <span class="tech-pill">RAG</span>
+          </div>
+        </div>
+
+        <div class="ai-card glass reveal-up" style="--delay:0.2s">
+          <div class="ai-card-glow" aria-hidden="true"></div>
+          <div class="ai-card-top">
+            <div class="ai-icon-wrap" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <span class="ai-card-badge">Integration</span>
+          </div>
+          <h3 data-i18n="ai.card3.title">Integración de APIs de LLM</h3>
+          <p data-i18n="ai.card3.desc">Conexión e integración de modelos de lenguaje (OpenAI, Anthropic Claude, Google Gemini) en aplicaciones móviles y web (SwiftUI, React Native) usando Function Calling, Tool Use y streaming.</p>
+          <div class="ai-card-tech">
+            <span class="tech-pill">OpenAI API</span>
+            <span class="tech-pill">Claude API</span>
+            <span class="tech-pill">Gemini API</span>
+            <span class="tech-pill">Function Calling</span>
+          </div>
+        </div>
+
+        <div class="ai-card glass reveal-up" style="--delay:0.3s">
+          <div class="ai-card-glow" aria-hidden="true"></div>
+          <div class="ai-card-top">
+            <div class="ai-icon-wrap" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <span class="ai-card-badge">Productivity</span>
+          </div>
+          <h3 data-i18n="ai.card4.title">Desarrollo Acelerado & Quality</h3>
+          <p data-i18n="ai.card4.desc">Multiplicación de la velocidad de desarrollo manteniendo los más altos estándares de Clean Code, generación de pruebas unitarias automatizadas y documentación viva impulsada por IA.</p>
+          <div class="ai-card-tech">
+            <span class="tech-pill">Clean Architecture</span>
+            <span class="tech-pill">Automated Unit Tests</span>
+            <span class="tech-pill">AI Code Review</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Agentic Workflow Interactive Demo Widget -->
+      <div class="ai-simulator glass reveal-up" style="--delay:0.4s">
+        <div class="sim-header">
+          <div class="sim-title-group">
+            <span class="sim-live-indicator"><span class="sim-pulse"></span>LIVE DEMO</span>
+            <h3 data-i18n="ai.sim.title">Demostración Interactiva: Workflows Agénticos</h3>
+          </div>
+        </div>
+        <p class="sim-desc" data-i18n="ai.sim.subtitle">Explorá ejemplos reales de código y workflows generados/optimizados mediante Agentes de IA:</p>
+
+        <div class="sim-tabs" role="tablist">
+          <button class="sim-tab active" data-sim="swiftui" role="tab" aria-selected="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <span data-i18n="ai.sim.btn1">SwiftUI ViewModel</span>
+          </button>
+          <button class="sim-tab" data-sim="bridge" role="tab" aria-selected="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <span data-i18n="ai.sim.btn2">Bridge React Native</span>
+          </button>
+          <button class="sim-tab" data-sim="toolcall" role="tab" aria-selected="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/></svg>
+            <span data-i18n="ai.sim.btn3">Agente Tool Calling</span>
+          </button>
+        </div>
+
+        <div class="sim-code-box">
+          <div class="sim-code-bar">
+            <div class="sim-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+            <span class="sim-filename" id="sim-filename">UserProfileViewModel.swift</span>
+            <button class="btn-copy-code" id="btn-copy-sim" title="Copiar código">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span id="copy-sim-label">Copiar</span>
+            </button>
+          </div>
+          <pre class="sim-code-content"><code id="sim-code"></code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== EXPERIENCE ========== -->
   <section id="experience" aria-labelledby="experience-heading">
     <div class="container">
@@ -232,11 +365,13 @@
               <li data-i18n="exp.job1.task1">Desarrollo de aplicaciones nativas con SwiftUI y React Native</li>
               <li data-i18n="exp.job1.task2">Implementación de arquitectura MVVM y patrones de diseño modernos</li>
               <li data-i18n="exp.job1.task3">Integración con APIs RESTful y herramientas como Firebase, Realm y StoreKit</li>
+              <li data-i18n="exp.job1.task4">Optimización del flujo de desarrollo móvil utilizando Agentes de IA autónomos (Cursor, Claude Code, Antigravity) para acelerar refactorizaciones y pruebas</li>
             </ul>
             <div class="card-tags">
               <span class="tech-pill">Swift</span>
               <span class="tech-pill">SwiftUI</span>
               <span class="tech-pill">React Native</span>
+              <span class="tech-pill">Agentes IA</span>
               <span class="tech-pill">MVVM</span>
               <span class="tech-pill">Firebase</span>
               <span class="tech-pill">Realm</span>
@@ -387,12 +522,47 @@
 
       <div class="skills-grid">
 
-        <div class="skill-group glass reveal-up" style="--delay:0s">
+        <div class="skill-group glass featured-skill-group reveal-up" style="--delay:0s">
+          <div class="skill-group-header">
+            <div class="skill-group-icon ai-icon-bg" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.5 7.5"/><path d="m12 12 8.5-4.5"/><path d="m12 12 4.5 8.5"/><path d="m12 12-4.5 8.5"/></svg>
+            </div>
+            <h3 data-i18n="skills.ai.title">IA & Desarrollo Agéntico</h3>
+          </div>
+          <ul class="skill-list" role="list">
+            <li class="skill-item">
+              <span class="skill-name" data-i18n="skills.ai.agents">Agentes de IA (Claude Code, Cursor, Antigravity)</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Agentes IA - Experto">
+                <div class="skill-fill ai-fill" data-width="95"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name" data-i18n="skills.ai.prompt">Prompt Engineering & Reglas de Contexto</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="Prompt Engineering - Experto">
+                <div class="skill-fill ai-fill" data-width="92"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name" data-i18n="skills.ai.llm">Integración APIs LLM (OpenAI, Claude, Gemini)</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="APIs LLM - Avanzado">
+                <div class="skill-fill ai-fill" data-width="88"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name" data-i18n="skills.ai.testing">Code Review & Unit Testing asistido por IA</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Testing IA - Avanzado">
+                <div class="skill-fill ai-fill" data-width="90"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group glass reveal-up" style="--delay:0.1s">
           <div class="skill-group-header">
             <div class="skill-group-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
             </div>
-            <h3 data-i18n="skills.tech.title">Técnicas / Desarrollo</h3>
+            <h3 data-i18n="skills.tech.title">Técnicas / Desarrollo Mobile</h3>
           </div>
           <ul class="skill-list" role="list">
             <li class="skill-item">
@@ -518,37 +688,49 @@
       </div>
 
       <div class="certs-grid">
-        <div class="cert-card glass reveal-up" style="--delay:0s">
-          <div class="cert-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+        <div class="cert-card glass featured-cert reveal-up" style="--delay:0s">
+          <div class="cert-icon ai-cert-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.5 7.5"/></svg>
           </div>
-          <p data-i18n="certs.c1">Curso de Programación Avanzado a Swift</p>
+          <p data-i18n="certs.ai1">Desarrollo de Software Asistido por Agentes de IA</p>
         </div>
-        <div class="cert-card glass reveal-up" style="--delay:0.05s">
-          <div class="cert-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+        <div class="cert-card glass featured-cert reveal-up" style="--delay:0.05s">
+          <div class="cert-icon ai-cert-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
           </div>
-          <p data-i18n="certs.c2">Curso de Programación con Swift: Funciones</p>
+          <p data-i18n="certs.ai2">Prompt Engineering & Workflows Autónomos</p>
         </div>
         <div class="cert-card glass reveal-up" style="--delay:0.1s">
           <div class="cert-icon" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
           </div>
-          <p data-i18n="certs.c3">Curso de Programación en Swift</p>
+          <p data-i18n="certs.c1">Curso de Programación Avanzado a Swift</p>
         </div>
         <div class="cert-card glass reveal-up" style="--delay:0.15s">
           <div class="cert-icon" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
           </div>
-          <p data-i18n="certs.c4">Curso de Programación Orientada a Objetos en Swift</p>
+          <p data-i18n="certs.c2">Curso de Programación con Swift: Funciones</p>
         </div>
         <div class="cert-card glass reveal-up" style="--delay:0.2s">
           <div class="cert-icon" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
           </div>
-          <p data-i18n="certs.c5">Curso de Programación Orientada a Objetos: POO</p>
+          <p data-i18n="certs.c3">Curso de Programación en Swift</p>
         </div>
         <div class="cert-card glass reveal-up" style="--delay:0.25s">
+          <div class="cert-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <p data-i18n="certs.c4">Curso de Programación Orientada a Objetos en Swift</p>
+        </div>
+        <div class="cert-card glass reveal-up" style="--delay:0.3s">
+          <div class="cert-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <p data-i18n="certs.c5">Curso de Programación Orientada a Objetos: POO</p>
+        </div>
+        <div class="cert-card glass reveal-up" style="--delay:0.35s">
           <div class="cert-icon" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
           </div>
@@ -629,10 +811,12 @@
 
           <button type="submit" id="contact-form-submit" class="btn-primary btn-full">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-            <span data-i18n="contact.form.submit">Enviar por Email</span>
+            <span id="submit-text" data-i18n="contact.form.submit">Enviar Mensaje</span>
           </button>
 
-          <p class="form-note" data-i18n="contact.form.note">Al enviar, se abrirá tu cliente de correo predeterminado.</p>
+          <div id="form-response" class="form-response" aria-live="polite"></div>
+
+          <p class="form-note" data-i18n="contact.form.note">Tu mensaje se enviará directamente a mi correo sin abrir ninguna aplicación.</p>
         </form>
 
       </div>

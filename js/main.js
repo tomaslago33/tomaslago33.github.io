@@ -9,6 +9,7 @@
 const translations = {
   es: {
     'nav.about': 'Sobre mí',
+    'nav.ai': 'IA & Agentes',
     'nav.experience': 'Experiencia',
     'nav.education': 'Educación',
     'nav.skills': 'Habilidades',
@@ -18,16 +19,18 @@ const translations = {
 
     'hero.badge': 'Disponible para trabajar',
     'hero.greeting': 'Hola, soy',
-    'hero.description': 'Desarrollador apasionado por la tecnología móvil con experiencia en iOS, React Native y educación tecnológica. Me adapto rápidamente a nuevos entornos y trabajo con compromiso, responsabilidad y buena comunicación.',
+    'hero.description': 'Desarrollador mobile e innovador tecnológico especializado en iOS, React Native y la aplicación de Agentes de IA autónomos (Cursor, Claude Code, Antigravity) para acelerar el desarrollo de software y entregar soluciones de alta calidad con Clean Architecture.',
     'hero.cta.contact': 'Contactarme',
     'hero.cta.download': 'Descargar CV',
     'hero.stat.years': 'Años de experiencia',
+    'hero.stat.ai': 'Desarrollo con Agentes IA',
+    'hero.stat.ai.val': '100%',
     'hero.stat.roles': 'Roles profesionales',
     'hero.stat.certs': 'Certificaciones',
 
     'about.tag': 'Sobre mí',
     'about.heading': 'Quién soy',
-    'about.role': 'iOS / React Native Developer',
+    'about.role': 'iOS / React Native & AI Agent Developer',
     'about.personal.heading': 'Información Personal',
     'about.personal.dob': 'Nacimiento:',
     'about.personal.nationality': 'Nacionalidad:',
@@ -35,23 +38,41 @@ const translations = {
     'about.personal.married': 'Casado',
     'about.personal.availability': 'Disponibilidad:',
     'about.personal.fulltime': 'Full-time · Inmediata',
-    'about.intro': 'Soy una persona proactiva, responsable y resolutiva. Me adapto rápidamente a nuevos entornos de trabajo y me destaco por el compromiso, el trabajo en equipo y la buena comunicación. Tengo experiencia tanto en tareas técnicas como en atención y coordinación de personas.',
+    'about.intro': 'Soy una persona proactiva, responsable y resolutiva. Me adapto rápidamente a nuevos entornos de trabajo y me destaco por el compromiso, el trabajo en equipo y la buena comunicación. Cuento con sólida experiencia en desarrollo mobile e integración de herramientas agénticas de IA para multiplicar la velocidad y calidad del desarrollo.',
     'about.objective.heading': 'Objetivo Laboral',
-    'about.objective.text': 'Insertarme laboralmente en el corto plazo, aportando compromiso, responsabilidad y capacidad de aprendizaje. Cuento con experiencia en tecnología, educación y soporte técnico, y me encuentro disponible para desempeñarme en distintos roles, con buena predisposición para aprender nuevas tareas.',
+    'about.objective.text': 'Aportar valor en equipos de desarrollo mobile y tecnología aplicando las mejores prácticas de ingeniería de software, arquitectura limpia y flujos de trabajo avanzados asistidos por Agentes de IA para impulsar proyectos innovadores.',
     'about.languages.heading': 'Idiomas',
     'about.languages.spanish': 'Español',
     'about.languages.native': 'Nativo',
     'about.languages.english': 'Inglés',
     'about.languages.intermediate': 'Nivel Medio',
 
+    'ai.tag': 'Innovación & Eficiencia',
+    'ai.heading': 'Inteligencia Artificial y Agentes de IA',
+    'ai.subtitle': 'Especialista en potenciar el desarrollo de software mediante el uso de Agentes de IA autónomos, Prompt Engineering avanzado e integración de LLMs.',
+    'ai.card1.title': 'Agentes de IA Autónomos',
+    'ai.card1.desc': 'Dominio de herramientas agénticas de última generación (Claude Code, Antigravity, Cursor, Windsurf) para automatizar refactorizaciones complejas, depuración profunda y creación de arquitecturas limpias en tiempo récord.',
+    'ai.card2.title': 'Prompt Engineering & Contexto',
+    'ai.card2.desc': 'Diseño de arquitecturas de contexto (AGENTS.md, SKILL.md), optimización de ventanas de contexto y estructuración de instrucciones precisas para maximizar la calidad y fidelidad del código generado.',
+    'ai.card3.title': 'Integración de APIs de LLM',
+    'ai.card3.desc': 'Conexión e integración de modelos de lenguaje (OpenAI, Anthropic Claude, Google Gemini) en aplicaciones móviles y web (SwiftUI, React Native) usando Function Calling, Tool Use y streaming.',
+    'ai.card4.title': 'Desarrollo Acelerado & Quality',
+    'ai.card4.desc': 'Multiplicación de la velocidad de desarrollo manteniendo los más altos estándares de Clean Code, generación de pruebas unitarias automatizadas y documentación viva impulsada por IA.',
+    'ai.sim.title': 'Demostración Interactiva: Workflows Agénticos',
+    'ai.sim.subtitle': 'Explorá ejemplos reales de código y workflows generados/optimizados mediante Agentes de IA:',
+    'ai.sim.btn1': 'SwiftUI ViewModel',
+    'ai.sim.btn2': 'Bridge React Native',
+    'ai.sim.btn3': 'Agente Tool Calling',
+
     'exp.tag': 'Trayectoria',
     'exp.heading': 'Experiencia Profesional',
     'exp.remote': 'Remoto',
     'exp.present': 'Actualidad',
-    'exp.job1.title': 'iOS / React Native Developer',
+    'exp.job1.title': 'iOS / React Native Developer & AI Specialist',
     'exp.job1.task1': 'Desarrollo de aplicaciones nativas con SwiftUI y React Native',
     'exp.job1.task2': 'Implementación de arquitectura MVVM y patrones de diseño modernos',
     'exp.job1.task3': 'Integración con APIs RESTful y herramientas como Firebase, Realm y StoreKit',
+    'exp.job1.task4': 'Optimización del flujo de desarrollo móvil utilizando Agentes de IA autónomos (Cursor, Claude Code, Antigravity) para acelerar refactorizaciones y pruebas',
     'exp.job2.title': 'Docente de Sistemas Digitales y Operativos',
     'exp.job2.task1': 'Docente de Sistemas Digitales',
     'exp.job2.task2': 'Docente de Sistemas Operativos',
@@ -70,7 +91,12 @@ const translations = {
 
     'skills.tag': 'Competencias',
     'skills.heading': 'Habilidades',
-    'skills.tech.title': 'Técnicas / Desarrollo',
+    'skills.ai.title': 'IA & Desarrollo Agéntico',
+    'skills.ai.agents': 'Agentes de IA (Claude Code, Cursor, Antigravity)',
+    'skills.ai.prompt': 'Prompt Engineering & Reglas de Contexto',
+    'skills.ai.llm': 'Integración APIs LLM (OpenAI, Claude, Gemini)',
+    'skills.ai.testing': 'Code Review & Unit Testing asistido por IA',
+    'skills.tech.title': 'Técnicas / Desarrollo Mobile',
     'skills.it.title': 'Informática General',
     'skills.it.pctools': 'Manejo de PC y herramientas informáticas',
     'skills.it.office': 'Paquete Office (nivel intermedio)',
@@ -86,6 +112,8 @@ const translations = {
     'certs.tag': 'Aprendizaje continuo',
     'certs.heading': 'Certificados y Cursos',
     'certs.platzi.label': 'Perfil en Platzi',
+    'certs.ai1': 'Desarrollo de Software Asistido por Agentes de IA',
+    'certs.ai2': 'Prompt Engineering & Workflows Autónomos',
     'certs.c1': 'Curso de Programación Avanzado a Swift',
     'certs.c2': 'Curso de Programación con Swift: Funciones',
     'certs.c3': 'Curso de Programación en Swift',
@@ -105,14 +133,18 @@ const translations = {
     'contact.form.name': 'Nombre',
     'contact.form.email': 'Email',
     'contact.form.message': 'Mensaje',
-    'contact.form.submit': 'Enviar por Email',
-    'contact.form.note': 'Al enviar, se abrirá tu cliente de correo predeterminado.',
+    'contact.form.submit': 'Enviar Mensaje',
+    'contact.form.sending': 'Enviando...',
+    'contact.form.note': 'Tu mensaje se enviará directamente a mi correo electrónico sin abrir ninguna aplicación.',
+    'contact.form.success': '¡Mensaje enviado con éxito! Me pondré en contacto con vos a la brevedad.',
+    'contact.form.error': 'Hubo un error al enviar el mensaje. Por favor intentá nuevamente.',
 
     'footer.rights': 'Todos los derechos reservados.',
   },
 
   en: {
     'nav.about': 'About',
+    'nav.ai': 'AI & Agents',
     'nav.experience': 'Experience',
     'nav.education': 'Education',
     'nav.skills': 'Skills',
@@ -122,16 +154,18 @@ const translations = {
 
     'hero.badge': 'Available for work',
     'hero.greeting': "Hi, I'm",
-    'hero.description': 'Developer passionate about mobile technology with experience in iOS, React Native, and tech education. I adapt quickly to new environments and work with commitment, responsibility, and good communication.',
+    'hero.description': 'Mobile developer and tech innovator specializing in iOS, React Native, and autonomous AI Agents (Cursor, Claude Code, Antigravity) to accelerate software development and deliver high-quality solutions with Clean Architecture.',
     'hero.cta.contact': 'Contact me',
     'hero.cta.download': 'Download CV',
     'hero.stat.years': 'Years of experience',
+    'hero.stat.ai': 'Agentic Development',
+    'hero.stat.ai.val': '100%',
     'hero.stat.roles': 'Professional roles',
     'hero.stat.certs': 'Certifications',
 
     'about.tag': 'About me',
     'about.heading': 'Who I am',
-    'about.role': 'iOS / React Native Developer',
+    'about.role': 'iOS / React Native & AI Agent Developer',
     'about.personal.heading': 'Personal Information',
     'about.personal.dob': 'Born:',
     'about.personal.nationality': 'Nationality:',
@@ -139,23 +173,41 @@ const translations = {
     'about.personal.married': 'Married',
     'about.personal.availability': 'Availability:',
     'about.personal.fulltime': 'Full-time · Immediate',
-    'about.intro': 'I am a proactive, responsible, and resourceful person. I adapt quickly to new work environments and stand out for my commitment, teamwork, and communication skills. I have experience in both technical tasks and people coordination.',
+    'about.intro': 'I am a proactive, responsible, and resourceful person. I adapt quickly to new work environments and stand out for my commitment, teamwork, and communication skills. I have solid experience in mobile development and AI agentic tool integration to boost development speed and code quality.',
     'about.objective.heading': 'Career Objective',
-    'about.objective.text': 'I am looking to join a team in the short term, bringing commitment, responsibility, and a learning mindset. I have experience in technology, education, and technical support, and I am available to take on different roles with great willingness to learn new tasks.',
+    'about.objective.text': 'To bring high value to mobile and software teams using best engineering practices, clean architecture, and advanced AI-agent-assisted workflows to drive innovative projects.',
     'about.languages.heading': 'Languages',
     'about.languages.spanish': 'Spanish',
     'about.languages.native': 'Native',
     'about.languages.english': 'English',
     'about.languages.intermediate': 'Intermediate',
 
+    'ai.tag': 'Innovation & Efficiency',
+    'ai.heading': 'Artificial Intelligence & AI Agents',
+    'ai.subtitle': 'Specialist in enhancing software engineering through autonomous AI Agents, advanced Prompt Engineering, and LLM integration.',
+    'ai.card1.title': 'Autonomous AI Agents',
+    'ai.card1.desc': 'Mastery of cutting-edge agentic tools (Claude Code, Antigravity, Cursor, Windsurf) to automate complex refactoring, deep debugging, and clean architecture design in record time.',
+    'ai.card2.title': 'Prompt Engineering & Context',
+    'ai.card2.desc': 'Designing context architectures (AGENTS.md, SKILL.md), context window optimization, and structured precise instructions to maximize generated code quality and fidelity.',
+    'ai.card3.title': 'LLM API Integration',
+    'ai.card3.desc': 'Connecting and integrating Language Models (OpenAI, Anthropic Claude, Google Gemini) into mobile and web applications (SwiftUI, React Native) using Function Calling, Tool Use, and async streaming.',
+    'ai.card4.title': 'Accelerated Dev & Quality',
+    'ai.card4.desc': 'Multiplying development velocity while maintaining top Clean Code standards, automated unit testing generation, and AI-driven living documentation.',
+    'ai.sim.title': 'Interactive Demo: Agentic Workflows',
+    'ai.sim.subtitle': 'Explore real code snippets and workflows created/optimized using AI Agents:',
+    'ai.sim.btn1': 'SwiftUI ViewModel',
+    'ai.sim.btn2': 'React Native Bridge',
+    'ai.sim.btn3': 'Agent Tool Calling',
+
     'exp.tag': 'Career',
     'exp.heading': 'Professional Experience',
     'exp.remote': 'Remote',
     'exp.present': 'Present',
-    'exp.job1.title': 'iOS / React Native Developer',
+    'exp.job1.title': 'iOS / React Native Developer & AI Specialist',
     'exp.job1.task1': 'Native app development with SwiftUI and React Native',
     'exp.job1.task2': 'Implementation of MVVM architecture and modern design patterns',
     'exp.job1.task3': 'Integration with RESTful APIs and tools like Firebase, Realm, and StoreKit',
+    'exp.job1.task4': 'Optimization of mobile development workflow using autonomous AI Agents (Cursor, Claude Code, Antigravity) to accelerate refactoring and testing',
     'exp.job2.title': 'Digital & Operating Systems Teacher',
     'exp.job2.task1': 'Digital Systems Teacher',
     'exp.job2.task2': 'Operating Systems Teacher',
@@ -174,7 +226,12 @@ const translations = {
 
     'skills.tag': 'Competencies',
     'skills.heading': 'Skills',
-    'skills.tech.title': 'Technical / Development',
+    'skills.ai.title': 'AI & Agentic Development',
+    'skills.ai.agents': 'AI Agents (Claude Code, Cursor, Antigravity)',
+    'skills.ai.prompt': 'Prompt Engineering & Context Rules',
+    'skills.ai.llm': 'LLM API Integration (OpenAI, Claude, Gemini)',
+    'skills.ai.testing': 'AI-assisted Code Review & Unit Testing',
+    'skills.tech.title': 'Technical / Mobile Development',
     'skills.it.title': 'General IT',
     'skills.it.pctools': 'PC management and IT tools',
     'skills.it.office': 'Microsoft Office (intermediate level)',
@@ -190,6 +247,8 @@ const translations = {
     'certs.tag': 'Continuous learning',
     'certs.heading': 'Certificates & Courses',
     'certs.platzi.label': 'Platzi Profile',
+    'certs.ai1': 'Software Development Assisted by AI Agents',
+    'certs.ai2': 'Prompt Engineering & Autonomous Workflows',
     'certs.c1': 'Advanced Swift Programming Course',
     'certs.c2': 'Swift Programming: Functions Course',
     'certs.c3': 'Swift Programming Course',
@@ -209,8 +268,11 @@ const translations = {
     'contact.form.name': 'Name',
     'contact.form.email': 'Email',
     'contact.form.message': 'Message',
-    'contact.form.submit': 'Send via Email',
-    'contact.form.note': 'Clicking send will open your default email client.',
+    'contact.form.submit': 'Send Message',
+    'contact.form.sending': 'Sending...',
+    'contact.form.note': 'Your message will be sent directly to my inbox without opening any email client.',
+    'contact.form.success': 'Message sent successfully! I will get back to you shortly.',
+    'contact.form.error': 'An error occurred while sending the message. Please try again.',
 
     'footer.rights': 'All rights reserved.',
   },
@@ -219,18 +281,18 @@ const translations = {
 // ─── Typed text phrases ───────────────────────────────────────────────────────
 const phrases = {
   es: [
-    'iOS Developer',
-    'React Native Developer',
-    'Docente de Sistemas',
-    'Entusiasta de la Tecnología',
-    'Técnico en Sistemas',
+    'iOS & React Native Developer',
+    'Especialista en Agentes de IA',
+    'Desarrollador con IA Agéntica',
+    'Docente & Técnico en Sistemas',
+    'Prompt Engineer & Mobile Dev',
   ],
   en: [
-    'iOS Developer',
-    'React Native Developer',
-    'Systems Teacher',
-    'Tech Enthusiast',
-    'Systems Technician',
+    'iOS & React Native Developer',
+    'AI Agents Specialist',
+    'Agentic AI Software Developer',
+    'Systems Teacher & Tech Lead',
+    'Prompt Engineer & Mobile Dev',
   ],
 };
 
@@ -402,19 +464,21 @@ function initSkillBars() {
   fills.forEach((el) => obs.observe(el));
 }
 
-// ─── Contact form → mailto ────────────────────────────────────────────────────
+// ─── Contact form → direct FormSubmit AJAX ─────────────────────────────────────
 function initContactForm() {
   const form = $('#contact-form');
+  const responseBox = $('#form-response');
+  const submitBtn = $('#contact-form-submit');
+  const submitText = $('#submit-text');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const name    = ($('#contact-name').value || '').trim();
     const email   = ($('#contact-email-input').value || '').trim();
     const message = ($('#contact-message').value || '').trim();
 
     if (!name || !email || !message) {
-      // Basic validation feedback
       form.querySelectorAll('[required]').forEach((f) => {
         if (!f.value.trim()) f.focus();
       });
@@ -422,18 +486,223 @@ function initContactForm() {
     }
 
     const t = translations[currentLang];
-    const subject = encodeURIComponent(
-      currentLang === 'es'
-        ? `Contacto desde Portfolio – ${name}`
-        : `Portfolio Contact – ${name}`
-    );
-    const body = encodeURIComponent(
-      currentLang === 'es'
-        ? `Hola Tomás,\n\nMi nombre es ${name} (${email}).\n\n${message}\n\n--\nEnviado desde tu portfolio web.`
-        : `Hi Tomás,\n\nMy name is ${name} (${email}).\n\n${message}\n\n--\nSent from your portfolio website.`
-    );
-    window.location.href = `mailto:tomasagustinlagomarsino@gmail.com?subject=${subject}&body=${body}`;
+    submitBtn.disabled = true;
+    if (submitText) submitText.textContent = t['contact.form.sending'] || 'Enviando...';
+
+    if (responseBox) {
+      responseBox.className = 'form-response';
+      responseBox.textContent = '';
+    }
+
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/tomasagustinlagomarsino@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          message: message,
+          _subject: `Nuevo mensaje desde Portfolio – ${name}`,
+          _template: 'table'
+        })
+      });
+
+      const data = await res.json();
+
+      if (res.ok || data.success === 'true' || data.success === true) {
+        form.reset();
+        if (responseBox) {
+          responseBox.className = 'form-response success';
+          responseBox.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>${t['contact.form.success']}</span>
+          `;
+        }
+        showToast(t['contact.form.success']);
+      } else {
+        throw new Error(data.message || 'Server response error');
+      }
+    } catch (err) {
+      console.error('Contact form submission error:', err);
+      if (responseBox) {
+        responseBox.className = 'form-response error';
+        responseBox.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span>${t['contact.form.error']}</span>
+        `;
+      }
+    } finally {
+      submitBtn.disabled = false;
+      if (submitText) submitText.textContent = t['contact.form.submit'];
+    }
   });
+}
+
+// ─── Scroll Progress Bar ──────────────────────────────────────────────────────
+function initScrollProgress() {
+  const bar = $('#scroll-progress');
+  if (!bar) return;
+  const updateProgress = () => {
+    const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+    bar.style.width = scrolled + '%';
+  };
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  updateProgress();
+}
+
+// ─── AI Simulator Widget ──────────────────────────────────────────────────────
+const simSnippets = {
+  swiftui: {
+    filename: 'UserProfileViewModel.swift',
+    code: `// Swift 5.9+ @Observable ViewModel — Generado con Agente IA (Claude / Cursor)
+import SwiftUI
+
+@Observable
+final class UserProfileViewModel {
+    private(set) var user: UserProfile?
+    private(set) var isLoading = false
+    private(set) var errorMessage: String?
+    
+    private let repository: UserRepositoryProtocol
+    
+    init(repository: UserRepositoryProtocol = UserRepository()) {
+        self.repository = repository
+    }
+    
+    @MainActor
+    func fetchUserProfile(userId: String) async {
+        isLoading = true
+        errorMessage = nil
+        do {
+            user = try await repository.getUser(id: userId)
+        } catch {
+            errorMessage = "Error cargando perfil: \\(error.localizedDescription)"
+        }
+        isLoading = false
+    }
+}`
+  },
+  bridge: {
+    filename: 'HapticService.ts',
+    code: `// React Native Native Module Bridge (TypeScript + Swift)
+// Creado con Agente IA para comunicación nativa tipo TurboModule
+import { NativeModules, Platform } from 'react-native';
+
+interface HapticFeedbackSpec {
+  triggerNotification(type: 'success' | 'warning' | 'error'): void;
+  impactAsync(style: 'light' | 'medium' | 'heavy'): Promise<boolean>;
+}
+
+const { HapticModule } = NativeModules;
+
+export const HapticService: HapticFeedbackSpec = {
+  triggerNotification: (type) => {
+    if (Platform.OS === 'ios' && HapticModule) {
+      HapticModule.triggerNotification(type);
+    }
+  },
+  impactAsync: async (style) => {
+    return Platform.OS === 'ios' && HapticModule
+      ? await HapticModule.impact(style)
+      : false;
+  }
+};`
+  },
+  toolcall: {
+    filename: 'AgentToolCalling.js',
+    code: `// Agente IA Autónomo con Tool Calling (OpenAI / Claude API)
+import { OpenAI } from 'openai';
+
+const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const tools = [{
+  type: 'function',
+  function: {
+    name: 'fetch_mobile_app_metrics',
+    description: 'Obtiene métricas de crash rate y latencia de la app iOS/React Native',
+    parameters: {
+      type: 'object',
+      properties: {
+        platform: { type: 'string', enum: ['ios', 'android'] },
+        timeframe: { type: 'string', enum: ['24h', '7d', '30d'] }
+      },
+      required: ['platform', 'timeframe']
+    }
+  }
+}];
+
+async function runAgentTask(userPrompt) {
+  const response = await client.chat.completions.create({
+    model: 'gpt-4o',
+    messages: [{ role: 'user', content: userPrompt }],
+    tools: tools,
+    tool_choice: 'auto'
+  });
+  return response.choices[0].message;
+}`
+  }
+};
+
+function initAiSimulator() {
+  const tabs = $$('.sim-tab');
+  const filenameEl = $('#sim-filename');
+  const codeEl = $('#sim-code');
+  const copyBtn = $('#btn-copy-sim');
+
+  if (!codeEl) return;
+
+  const loadTab = (key) => {
+    const data = simSnippets[key] || simSnippets.swiftui;
+    if (filenameEl) filenameEl.textContent = data.filename;
+    codeEl.textContent = data.code;
+
+    tabs.forEach((tab) => {
+      const isCurrent = tab.dataset.sim === key;
+      tab.classList.toggle('active', isCurrent);
+      tab.setAttribute('aria-selected', isCurrent);
+    });
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      loadTab(tab.dataset.sim);
+    });
+  });
+
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      const textToCopy = codeEl.textContent;
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        showToast(currentLang === 'es' ? '¡Código copiado al portapapeles!' : 'Code copied to clipboard!');
+      }).catch(() => {
+        showToast('Error al copiar');
+      });
+    });
+  }
+
+  // Load default tab
+  loadTab('swiftui');
+}
+
+// ─── Toast Notifications ──────────────────────────────────────────────────────
+function showToast(message) {
+  let toast = $('#global-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'global-toast';
+    toast.className = 'toast-notification';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add('show');
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, 2800);
 }
 
 // ─── Footer year ──────────────────────────────────────────────────────────────
@@ -459,11 +728,13 @@ function initSmoothScroll() {
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+  initScrollProgress();
   initNavbar();
   initHamburger();
   initLangToggle();
   runTyped();
   initReveal();
+  initAiSimulator();
   initSkillBars();
   initContactForm();
   initFooter();
