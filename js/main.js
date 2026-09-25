@@ -20,6 +20,7 @@ const translations = {
 
     'hero.badge': 'Disponible para trabajar',
     'hero.greeting': 'Hola, soy',
+    'hero.secondary': 'También abierto a oportunidades como Analista de Sistemas y otros roles IT.',
     'hero.description': 'Ssr. iOS Developer especializado en Swift, SwiftUI y desarrollo mobile, con experiencia en React Native, MVVM y Clean Architecture. Potencio mi productividad y calidad de código utilizando Agentes de IA autónomos como diferencial.',
     'hero.cta.contact': 'Contactarme',
     'hero.cta.download': 'Descargar CV',
@@ -36,7 +37,7 @@ const translations = {
     'about.personal.fulltime': 'Full-time · Inmediata',
     'about.intro': 'Soy desarrollador mobile especializado en el ecosistema iOS (Swift, SwiftUI) y soluciones multiplataforma con React Native. Apasionado por crear código limpio, mantenible y accesible, incorporando prácticas avanzadas de arquitectura e integración de herramientas agénticas de IA para acelerar entregas.',
     'about.objective.heading': 'Objetivo Laboral',
-    'about.objective.text': 'Aportar valor en equipos de desarrollo mobile y tecnología aplicando las mejores prácticas de ingeniería de software, arquitectura limpia (MVVM / Clean Architecture) y flujos de trabajo eficientes para impulsar productos móviles de alto impacto.',
+    'about.objective.text': 'Actualmente busco nuevos desafíos profesionales dentro del área de tecnología. Mi principal orientación es el desarrollo Mobile como Ssr. iOS / React Native Developer, aunque también estoy abierto a oportunidades como Analista de Sistemas y otros roles IT donde pueda aportar mi experiencia técnica.',
     'about.languages.heading': 'Idiomas',
     'about.languages.spanish': 'Español',
     'about.languages.native': 'Nativo',
@@ -157,6 +158,7 @@ const translations = {
 
     'hero.badge': 'Available for work',
     'hero.greeting': "Hi, I'm",
+    'hero.secondary': 'Also open to opportunities as a Systems Analyst and other IT roles.',
     'hero.description': 'Ssr. iOS Developer specialized in Swift, SwiftUI, and mobile development, with experience in React Native, MVVM, and Clean Architecture. I boost my productivity and code quality using autonomous AI Agents as a key differentiator.',
     'hero.cta.contact': 'Contact me',
     'hero.cta.download': 'Download CV',
@@ -173,7 +175,7 @@ const translations = {
     'about.personal.fulltime': 'Full-time · Immediate',
     'about.intro': 'I am a mobile developer specialized in the iOS ecosystem (Swift, SwiftUI) and cross-platform solutions with React Native. Passionate about building clean, maintainable, and accessible code, incorporating advanced software architecture practices and AI agentic tools to accelerate deliveries.',
     'about.objective.heading': 'Career Objective',
-    'about.objective.text': 'To bring high value to mobile engineering teams using software engineering best practices, clean architecture (MVVM / Clean Architecture), and efficient workflows to deliver high-impact mobile products.',
+    'about.objective.text': 'I am currently looking for new professional challenges within the technology field. My main focus is Mobile Development as a Mid-level iOS / React Native Developer, while I am also open to opportunities as a Systems Analyst and other IT roles where I can contribute my technical experience.',
     'about.languages.heading': 'Languages',
     'about.languages.spanish': 'Spanish',
     'about.languages.native': 'Native',

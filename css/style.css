@@ -487,7 +487,15 @@ section:nth-child(even) {
   color: var(--clr-primary);
   font-weight: 500;
   min-height: 2em;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+.hero-secondary {
+  font-size: 0.95rem;
+  color: var(--clr-muted);
+  font-weight: 400;
+  margin-bottom: 24px;
+  opacity: 0.9;
 }
 
 .cursor {
